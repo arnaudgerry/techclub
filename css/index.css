@@ -263,3 +263,80 @@ body{
     color: yellow;
     text-align: center; 
 }*/
+
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    background-color: #FDFCED;
+}
+
+.footer .department, .support, .clubs, .intouch{
+    height: 250px;
+    width: 20%;
+    font-size: 18px;
+    position: relative;
+    left: 62px;
+    color: #838383;
+    background-color: #FDFCED;
+    /*border: 2px solid orange;*/
+}
+
+.footer h3{
+    color: #32384E;
+    position: relative;
+    left: 8px;
+}
+
+
+.footer .intouch{
+    width: 20%;
+}
+
+.footer .intouch span{
+    color: #24A6F0;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.footer li{
+    list-style: none;
+    position: relative;
+    left: -33px;
+    padding-bottom: 20px;
+}
+
+.footer li:hover{
+    color: rgb(37, 43, 66);
+}
+
+.btmfooter{
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #252B42;
+
+}
+
+.btmfooter .sign{
+    position: relative;
+    margin-top: 10px;
+    right: 270px;
+    color: rgba(142, 142, 142, 0.959);
+}
+
+.btmfooter .socials{
+    color: #24A6F0;
+    font-size: 30px;
+    position: relative;
+    left: 260px;
+    margin-top: 20px;
+}
+
+.fab{
+    margin-left: 20px;
+}
