@@ -1,4 +1,4 @@
-# Tech_Club
+# TechClub
 
 #### This project is of a school tech club website, 30 January 2022
 #### By **Arnold Gerry**
