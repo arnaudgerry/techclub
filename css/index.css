@@ -4,6 +4,7 @@ body{
     background-color: #252B42;
     padding: 0;
     margin: 0;
+    min-height: 1000px;
 }
 
 .header .top_header{
@@ -98,15 +99,20 @@ body{
     font-weight: bold;
 }
 
+.navbar > ul > li a{
+    text-decoration: none;
+    color: red;
+}
+
 .navbar > ul > li:hover{
     color: green;
 }
 
-#quiz{
+#quizz{
     color: red;
 }
 
-#quiz:hover{
+#quizz:hover{
     color: green;
 }
 
@@ -264,6 +270,40 @@ body{
     text-align: center; 
 }*/
 
+.board{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+    color: #252B42;
+    background-color: #FEFCED;
+}
+
+#quiz{
+    margin-left: 50px;
+}
+
+#submitbtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: rgb(247, 253, 246);
+    border: #24A6F0;
+    position: relative;
+
+}
+
+#submitbtn:hover{
+    background-color: green;
+}
+
+.board h2{
+    text-align: center;
+}
+
 .footer{
     height: 300px;
     display: flex;
@@ -271,6 +311,7 @@ body{
     justify-content: space-evenly;
     padding-top: 45px;
     background-color: #FDFCED;
+    position: relative;
 }
 
 .footer .department, .support, .clubs, .intouch{
