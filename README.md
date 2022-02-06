@@ -53,7 +53,7 @@ Find Arnold Gerry on [Twitter](https://twitter.com/arnoldgerry1) or on [Github](
 [Go Back to the top](#techclub)
 
 ## Live Site   
-Find the site available here ()  
+Find the site available here (https://arnaudgerry.github.io/techclub/)  
 
 
 ## License  
