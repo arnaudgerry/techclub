@@ -1,6 +1,6 @@
 # TechClub
 
-#### This project is of a school tech club website, 30 February 2022
+#### This project is of a school tech club website, 6 February 2022
 #### By **Arnold Gerry**
 
 ## Table of Content
