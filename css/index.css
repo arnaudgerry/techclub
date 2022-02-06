@@ -141,3 +141,40 @@ body{
     background-repeat: no-repeat;
     z-index: -1;
 }
+
+.mission{
+    color: black;
+    height: 300px;
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 300px;
+    right: 30px;  
+    background-color: rgba(255, 255, 255, 0.582);
+   
+}
+
+.mission h2{
+    font-weight: 700;
+    margin-left: 50px;
+    color: black;
+}
+
+.mission p{
+    margin-left: 50px;
+}
+
+#read_more{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 50px;
+    background-color: #24A6F0;
+    color: rgb(247, 253, 246);
+    border: #24A6F0;
+    position: absolute;
+}
+
+#read_more:hover{
+    background-color: #252B42;
+}
