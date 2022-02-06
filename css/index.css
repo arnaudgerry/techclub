@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat';
     font-size: 20px;
-    background-color: #FDFCED;
+    background-color: #252B42;
     padding: 0;
     margin: 0;
 }
@@ -188,20 +188,78 @@ body{
     justify-content: space-evenly;
     position: relative;
     top: -90px;
-    background-color: #FDFCED;
+    background-color: #252B42;
     
 }
 
 .welcome .welcome_img{
     width: 50%;
     height: fit-content;
+    margin-right: 30px;
 }
 
 .welcome .welcome_text{
     padding-left: 30px;
+    color: rgb(247, 253, 246);
 }
 
 .welcome_text h2{
     color: red;
     font-weight: 700;
 }
+
+.techclub{
+    height: 520px;
+    background-color: #FDFCED;
+}
+
+.techclub .heading{
+    padding-top: 20px;
+    margin: auto;
+    height: 120px;
+    width: 65%;
+    text-align: center;
+}
+
+.techclub .heading h2{
+    color: red;
+}
+
+.techclub .departments{
+    height: 390px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#datascience{
+    position: relative;
+    height: 360px;
+    width: 30%;
+    background-image: url("../images/datascience.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#cybersecurity{
+    height: 360px;
+    width: 30%;
+    background-image: url("../images/security.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+
+#softwareeng{
+    height: 360px;
+    width: 30%;
+    background-image: url("../images/engineering.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*#datascience, #cybersecurity, #softwareeng p{
+    color: yellow;
+    text-align: center; 
+}*/
