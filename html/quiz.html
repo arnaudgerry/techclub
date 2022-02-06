@@ -39,7 +39,7 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Academics</a></li>
                         <li><a href="#">Clubs</a></li>
-                        <li id="quiz"><a href="#"></a>Quiz Board</li>
+                        <li id="quiz"><a href="#">Quiz Board</a></li>
                     </ul>
                 </div>
 
@@ -52,6 +52,21 @@
     </div>
 
     <!--Quiz Board-->
+    <div class="Board">
+    <form action="quiz_board" id="quiz_board">
+        <!--Question 1-->
+        <div>
+            <p>1. Which is not valid data type in Javascript?</p>
+            <p><input type="radio" name="quiz1" value="Undefined"> A. Undefined</p>
+            <p><input type="radio" name="quiz1" value="Boolean"> B. Boolean</p>
+            <p><input type="radio" name="quiz1" value="Float"> C. Float</p>
+            <p><input type="radio" name="quiz1" value="Number"> D. Number</p>
+        </div>
+        <!--End Question 1-->
+
+        <input type="button" name="" value="Submit" onclick="check()">
+    </form>
+    </div>
     <!--End Quiz Board-->
 
     <!-- Footer -->
@@ -109,6 +124,10 @@
         </div>
     </div>
     <!--End Bottom Footer-->
+
+
+    <!--Scripts-->
+    <script src="../js/script.js"></script>
 
 </body>
 </html>
